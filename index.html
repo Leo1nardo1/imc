@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+
+    <form id="formulario">
+
+        <div class="divNome">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" class="input" required>
+        </div>
+
+        <div class="divPeso">
+            <label for="peso">Peso:</label>
+            <input type="number" id="peso" class="input" required>
+        </div>
+
+        <div class="divAltura">
+            <label for="altura">Altura:</label>
+            <input type="text" id="altura" class="input" required>
+        </div>
+
+        <div class="divButton">
+           <button id="btn">Calcular</button>
+        </div>
+
+        <div class="divResultado">
+            <label for="imc">IMC:</label>
+            <input type="number" disabled class="input"  id="imc">
+
+            <br><br><span id="resultado"></span>
+        </div>
+    </form>
+    
+        <img src="imagens/logo.png" id="imagem">
+    <script src="js/imc.js"></script>
+</body>
+</html>
